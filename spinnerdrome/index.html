@@ -1,0 +1,22 @@
+<head>
+<style>
+.spin {
+    position: absolute;
+    font-size: 60px;
+    font-family: gill sans;
+    -webkit-animation:spin 2s linear;
+    -moz-animation:spin 2s linear;
+    animation:spin 2s linear;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+</style>
+</head>
+<body>
+<h1>Spinnerdrome</h1>
+<p>I've created a new word; Spinnerdrome. It's a number reading the same when spun upside down.</p>
+<p>It's like a palindrome, but instead of reading the same "forwards and backwards" it reads the same if you spin it 180º.
+</p>
+<p class="spin">60109</p>
+</body>
