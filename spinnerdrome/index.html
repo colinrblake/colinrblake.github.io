@@ -15,8 +15,7 @@ h1 {
 p {
     font-size: 120%;
 }
-.spin {
-    position: static;
+.spin1 {
     text-align: center;
     border: 3px solid black;
     font-size: 200%;
@@ -25,6 +24,16 @@ p {
     -webkit-animation:spin 8s ease-in-out infinite;
     -moz-animation:spin 8s ease-in-out infinite;
     animation:spin 8s ease-in-out infinite;
+}
+.spin2 {
+    text-align: center;
+    border: 3px solid black;
+    font-size: 200%;
+    font-family: Trebuchet MS;
+    background-image: linear-gradient(to right, yellow , orange);
+    -webkit-animation:spin 7s ease-in-out infinite;
+    -moz-animation:spin 7s ease-in-out infinite;
+    animation:spin 7s ease-in-out infinite;
 }
 @-moz-keyframes spin {
     25%, 50%  { -moz-transform:rotate(180deg); }
@@ -45,8 +54,11 @@ p {
 <p>In July 2020 I created a new word: Spinnerdrome. It's something which reads the same when spun upside down.</p>
 <p>It's like a palindrome, but instead of reading the same <i>forwards and backwards</i>, it reads the same if you spin it 180º.
 Here's an example:</p>
-<p class="spin">60109</p>
-<p> 0, 1, and 8 and all valid Spinnerdrome digits. 6 and 9 can be used as a matched pair.</p>
+<p class="spin1">60109</p>
+<p> 0, 1, and 8 are all valid Spinnerdrome digits. 6 and 9 can be used as a matched pair.</p>
+<p> You can also have Spinnerdrome words:</p>
+<p class="spin2">SWIMS</p>
+<p> H, I, N, O, S, X, Z and all valid Spinnerdrome letters. M and W can be used as a matched pair.</p>
 <p> Tell everyone about Spinnerdromes. Let's get this word into the dictionaries. </p>
 <p> Colin <i><a href="//www.theblakes.com">(theblakes.com)</a></i></p>
 </body>
